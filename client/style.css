@@ -1,0 +1,141 @@
+/* Name: International Orange (Engineering)
+Hex: #B31313
+RGB: (179, 19, 19)
+CMYK: 0, 0.893, 0.893, 0.298
+
+
+DARK ORANGE	
+Name: Dark Orange
+Hex: #FF9000
+RGB: (255, 144, 0)
+CMYK: 0, 0.435, 1, 0
+METALLIC YELLOW	
+
+
+Name: Metallic Yellow
+Hex: #FDDA16
+RGB: (253, 218, 22)
+CMYK: 0, 0.138, 0.913, 0.007
+
+Name: Yellow (Crayola)
+Hex: #FFEE82
+RGB: (255, 238, 130)
+CMYK: 0, 0.066, 0.490, 0 */
+
+
+
+html, body {
+    background-image: linear-gradient(to bottom right, #B31313, #FF9000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------------------navbar--------------- */
+
+.navBar {
+    color: rgb(49, 49, 49);
+    height: 60px;
+    width: 100%;
+    background-color: rgba(253, 218, 22, .25);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: flex-end;
+}
+
+.navLogo {
+    color: #625D5D;
+    letter-spacing: 3px;
+}
+
+.navButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navButtons a {
+    height: 25px;
+    width: 150px;
+    color: rgb(49, 49, 49);
+    letter-spacing: 3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navButtons a:hover {
+    background-color: rgba(80, 35, 35, .75);
+    color: gold;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+/* ---------------body------------ */
+/* Name: International Orange (Engineering)
+Hex: #B31313
+RGB: (179, 19, 19)
+CMYK: 0, 0.893, 0.893, 0.298
+
+
+DARK ORANGE	
+Name: Dark Orange
+Hex: #FF9000
+RGB: (255, 144, 0)
+CMYK: 0, 0.435, 1, 0
+METALLIC YELLOW	
+
+
+Name: Metallic Yellow
+Hex: #FDDA16
+RGB: (253, 218, 22)
+CMYK: 0, 0.138, 0.913, 0.007
+
+Name: Yellow (Crayola)
+Hex: #FFEE82
+RGB: (255, 238, 130)
+CMYK: 0, 0.066, 0.490, 0 */ 
+
+.mainContainer {
+    width: 66%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    flex: 1 0 auto;
+    /* border: solid #FF9000 2px; */
+    background-color: rgba(128, 128, 128, .25);
+    box-shadow: 2px 1px 2px 1px rgb(80, 35, 35);
+}
+
+.pContainer1 {
+    padding: 20px 100px;
+    margin: 0 auto;
+    text-align: left;
+    display: grid;
+}
+
+.pContainer1 img {
+    width: 400px;
+    height: 300px;
+}
+
+
+/* -------------foot-------------------- */
+
+.footer {
+    flex-shrink: 0;
+    background-color: green;
+    height: 50px;
+    margin-bottom: 0;
+}
